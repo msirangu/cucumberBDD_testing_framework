@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: runner.Testrunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.295 s <<< FAILURE! - in runner.Testrunner
+runner.Testrunner.setUpClass[org.testng.TestRunner@1329eff](0)  Time elapsed: 0.972 s  <<< FAILURE!
+java.lang.IllegalArgumentException: 
+The plugin specification 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm' has a problem:
+
+Could not load plugin class 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm'.
+
+Plugin specifications should have the format of PLUGIN[:[PATH|[URI [OPTIONS]]]
+
+Valid values for PLUGIN are: html, json, junit, message, pretty, progress, rerun, summary, teamcity, testng, timeline, unused, usage
+
+PLUGIN can also be a fully qualified class name, allowing registration of 3rd party plugins. The 3rd party plugin must implement io.cucumber.plugin.Plugin
+Caused by: java.lang.ClassNotFoundException: io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm
+

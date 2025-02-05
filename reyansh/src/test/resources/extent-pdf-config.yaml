@@ -1,0 +1,5 @@
+pdf:
+  title: "Cucumber Test Report"
+  author: "Automation Team"
+  theme: "DARK"
+  encoding: "UTF-8"

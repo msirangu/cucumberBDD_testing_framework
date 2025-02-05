@@ -1,0 +1,11 @@
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <encoding>UTF-8</encoding>
+        <protocol>HTTPS</protocol>
+        <documentTitle>Test Automation Report</documentTitle>
+        <reportName>Cucumber Test Execution Report</reportName>
+        <timeStampFormat>yyyy-MM-dd HH:mm:ss</timeStampFormat>
+        <appendExisting>false</appendExisting>
+    </configuration>
+</extentreports>
